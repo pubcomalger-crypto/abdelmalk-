@@ -4,9 +4,9 @@ const profileConfig = {
     // Informations de base
 
 
-    name: "مطبعتي ",
-    bio: "شركة طباعة و اشهار ",
-    profileImage: ""https://i.ibb.co/5Wrr36B2/438165276-1803303496805105-424833355880910424-n.jpg",
+    name: "مطبعتي",
+    bio: "شركة طباعة و اشهار",
+    profileImage: "https://i.ibb.co/5Wrr36B2/438165276-1803303496805105-424833355880910424-n.jpg",
     
 
 
@@ -83,4 +83,5 @@ if (typeof module !== 'undefined' && module.exports) {
 } else {
     window.profileConfig = profileConfig;
 }
+
 
