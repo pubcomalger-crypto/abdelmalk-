@@ -4,9 +4,9 @@ const profileConfig = {
     // Informations de base
 
 
-    name: "COCA",
-    bio: "SALAM",
-    profileImage: "https://i.ibb.co/NgKMhgMT/cocacola.jpg",
+    name: "مطبعتي ",
+    bio: "شركة طباعة و اشهار ",
+    profileImage: ""https://i.ibb.co/5Wrr36B2/438165276-1803303496805105-424833355880910424-n.jpg",
     
 
 
@@ -15,17 +15,17 @@ const profileConfig = {
 
     // Réseaux sociaux
     socialLinks: {
-        facebook: "https://www.facebook.com/share/16dysjBQvt/?mibextid=wwXIfr",
-        instagram: "https://www.instagram.com/riyadmahrez26.7?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-        tiktok: "https://www.tiktok.com/@chebkhaled?is_from_webapp=1&sender_device=pc",
+        facebook: "https://www.facebook.com/abdlmalek.abdlmalek.102",
+        instagram: "https://www.instagram.com/aitoualimalek/",
+        tiktok: "https://www.tiktok.com/@matbaati",
         whatsapp: "+213540253369",
-        telegram: "+213 562 33 14 08",
+        telegram: "+213 540 25 33 69",
         linkedin: "daisyparkhouse",
         snapchat: "https://www.snapchat.com/@sheikh_tidiane?sender_web_id=792b2a4d-05d3-4e8f-a5e0-1aeb89eba722&device_type=desktop&is_copy_url=true",
         email: "pubcom.alger@gmail.com",
         website: "https://www.youtube.com/",
         maps: "https://share.google/T1z7NAFbftnLYNKZy",
-        phone: "+213658546209"
+        phone: "+213540253369"
     },
     
 
@@ -45,7 +45,7 @@ const profileConfig = {
         website: false,       // Afficher Site Web
         maps: true,          // Afficher Maps
         phone: true,         // Afficher Téléphone
-        snapchat: true,      // Afficher Snapchat
+        snapchat: false,      // Afficher Snapchat
         email: true,         // Afficher Email
     },
     
@@ -83,3 +83,4 @@ if (typeof module !== 'undefined' && module.exports) {
 } else {
     window.profileConfig = profileConfig;
 }
+
